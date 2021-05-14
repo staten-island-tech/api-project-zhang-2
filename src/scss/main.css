@@ -33,6 +33,6 @@ body {
 
 .taskbar {
   position: relative;
-  background: chartreuse;
+  background-color: rgba(41, 43, 40, 0.8);
 }
 /*# sourceMappingURL=main.css.map */
