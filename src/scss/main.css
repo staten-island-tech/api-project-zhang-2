@@ -1,0 +1,38 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: aliceblue;
+  overflow: hidden;
+}
+
+.desktop-theme {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(https://wallpapercave.com/wp/wp4617196.jpg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.window-screen {
+  height: 90vh;
+  padding: 2vh 3vw 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.taskbar {
+  position: relative;
+  background: chartreuse;
+}
+/*# sourceMappingURL=main.css.map */

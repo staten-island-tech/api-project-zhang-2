@@ -6,7 +6,7 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Asap:wght@400;600&family=Josefin+Slab:ital,wght@0,300;0,400;1,300&display=swap"
       rel="stylesheet" />
-    <link rel="stylesheet" href="scss/styles.scss" />
+    <link rel="stylesheet" href="scss/main.scss" />
   </head>
 
   <body>
@@ -16,15 +16,33 @@
          <div class="header">
             <h1>Hello</h1>
           </div>
-        
+
+          <div class="search">
+            <input
+              type="text"
+              name="song"
+              class="search-song"
+              autofocus="autofocus"
+              placeholder="Type the song you want the lyrics"
+              id="search-input"
+            />
+            <ul class="results" id="results"></ul>
+          </div>
+    
+          <div class="lyrics" id="lyrics"></div>
+        </div>
+      
+        </div>
+      </div>
+      <div class="taskbar">
+        <div class="but 1">
+          <button>something</button>
         </div>
       </div>
     </div>
-  </div> 
   
-
-
-
+    <script src="search.js" charset="utf-8"></script>
     <script src="js/index.js"></script>
+    
   </body>
 </html>

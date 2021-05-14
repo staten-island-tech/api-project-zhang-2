@@ -1,0 +1,20 @@
+$colors: (
+  primary-background: #f8f8f8,
+  primary-heading: #05386b,
+  sub-text: #303f9f,
+  footer-color: #96a2e8,
+  text: #fff,
+);
+
+$small: 360px;
+$phone: 600px;
+$tablet: 900px;
+$laptop: 1100px;
+
+@function color($color-name) {
+  @return map-get($colors, $color-name);
+}
+
+$header: "Philosopher", sans-serif;
+$sub: "Mulish", sans-serif;
+$footer: "Trirong", serif;
