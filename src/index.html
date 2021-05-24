@@ -2,23 +2,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Music Lyrics Thing?? (great name ik) </title>
+    <title>Music Lyrics Thing?? (great name ik)</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Asap:wght@400;600&family=Josefin+Slab:ital,wght@0,300;0,400;1,300&display=swap"
-      rel="stylesheet" />
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
 
   <body>
-    <div class ="desktop-theme">
+    <div class="desktop-theme">
       <div class="window-screen">
         <div class="song-window">
-         <div class="header">
+          <div class="header">
             <h1>Hello</h1>
-            
-            <div id="lyrics" class="slip">
-            </div>
-         </div>
+            <h2 class="search-header">
+              <form id="search-form" class="search-form">
+                <textarea
+                  name="search-area"
+                  id="search-area"
+                  placeholder="search for a song"
+                ></textarea>
+                <input type="submit" class="submit-button" />
+              </form>
+            </h2>
+            <div id="lyrics" class="slip"></div>
+          </div>
         </div>
       </div>
       <div class="taskbar">
@@ -27,6 +36,5 @@
     </div>
 
     <script src="js/index.js"></script>
-
   </body>
 </html>
