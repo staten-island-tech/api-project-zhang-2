@@ -3,9 +3,16 @@
 
 .search {
   width: 100%;
+  @include flex-col-center;
 }
 
 .search-song {
   width: 100%;
   position: top;
+}
+
+#results {
+  padding: 0.5rem;
+  font-size: 2mm;
+  border: 0.3rem ridge rgba(255, 255, 255, 0.6);
 }

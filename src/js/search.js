@@ -16,9 +16,9 @@ searchInput.addEventListener(`keyup`, (e) => {
 const query = async function () {
   try {
     const response = await fetch(
-      `https://api.lyrics.ovh`
+      `https://api.lyrics.ovh/v1/Coldplay/Adventure of a Lifetime`
     );
-    data = await response.json();
+    const data = await response.json();
     displayLyrics(lyrics);
     console.log(data);
     
@@ -28,16 +28,16 @@ const query = async function () {
   }
 };
 
+query();
+
+const lyrics = document.getElementById("lyrics");
+
+
 const displayLyrics = (lyrics) => {
   const htmlString = lyrics
   lyrics.innerHTML = htmlString;  
   
 }
-
-
-query();
-
-
 
 
 

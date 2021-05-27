@@ -17,6 +17,6 @@ const query = async function () {
 };
 query();
 
-const lyrics = document.getElementById("lyrics");
+const lyrics = document.getElementById("results");
 
 
