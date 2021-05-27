@@ -9,6 +9,7 @@ const query = async function () {
     const data = await response.json();
     console.log(data);
     lyrics.textContent = data.lyrics;
+    
   } catch (error) {
     console.log(error);
     alert("why cant you do anything right");
