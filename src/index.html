@@ -2,40 +2,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Music Lyrics</title>
+    <title>Music Lyrics Thing?? (great name ik)</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Asap:wght@400;600&family=Josefin+Slab:ital,wght@0,300;0,400;1,300&display=swap"
-      rel="stylesheet" />
-      <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
 
   <body>
-    <div class ="desktop-theme">
-
+    <div class="desktop-theme">
       <div class="window-screen">
         <div class="song-window">
-         <div class="song-header">
+          <div class="song-header">
             <h1>Music Lyrics</h1>
-         </div>
-         <div class="content">
-           <img class= "vaporwave-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCFabjRtAO02gFmp-fU2p2wXvY4Srf_66hzg&usqp=CAU">
-           <div class="search">
-             <input id="search-input" class="search-song" 
-                type="text" 
-                autofocus="autofocus" 
-                placeholder="Search for Song....">
+          </div>
+          <div class="content">
+            <img
+              class="vaporwave-img"
+              alt="two hands approaching each other"
+              src="img/hands.png"
+            />
+            <div class="search">
+              <input
+                id="search-input"
+                class="search-song"
+                type="text"
+                autofocus="autofocus"
+                placeholder="What song you want?"
+              />
               <ul id="results"></ul>
             </div>
-            <div class="lyrics" id="lyrics"></div>
+            <div class="lyrics" id="lyrics" style="display: none"></div>
           </div>
         </div>
       </div>
     </div class="taskbar"></div> 
     </div>
 
-    <script src="js/index.js"></script>
-
+    <script src="js/search2.js"></script>
   </body>
 </html>
