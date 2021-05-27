@@ -1,8 +1,6 @@
 //import { DOMSelectors } from "./DOM";
 //import { genres } from "./genre";
 
-const key = ""; //cant find a key 
-
 const query = async function () {
   try {
     const response = await fetch(
@@ -19,3 +17,5 @@ const query = async function () {
 query();
 
 const lyrics = document.getElementById("lyrics");
+
+
