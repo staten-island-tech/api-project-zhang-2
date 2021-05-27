@@ -1,14 +1,15 @@
 @import "_variables.scss";
-@import "_search.scss";
+@import "_songwindow.scss";
 
 html,
 body {
-  margin: 0;
+  box-sizing: border-box;
   padding: 0;
-  align-items: center;
-  color: aliceblue;
-  overflow: hidden;
+  margin: 0;
   font-size: 62.5%;
+  color: white;
+  font-family: $sub;
+  overflow: hidden;
 }
 
 .desktop-theme {
@@ -20,24 +21,8 @@ body {
   background-size: cover;
 }
 
-.window-screen {
-  height: 89vh;
-  padding: 2vh 3vw 5vh;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  font-size: 1.5rem;
-}
-
 .taskbar {
-  position: relative;
-  background-color: rgba(41, 43, 40, 0.8);
   height: 11vh;
-  width: 100vw;
-  position: absolute;
-}
-
-.navbar {
-  padding: 0;
-  color: orange;
+  position: relative;
+  background-color: color(background);
 }

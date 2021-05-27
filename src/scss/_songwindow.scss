@@ -1,0 +1,27 @@
+@import "_variables.scss";
+
+.window-screen {
+  height: 89vh;
+  padding: 2vh 3vw 5vh;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: stretch;
+  flex-direction: row;
+  justify-content: center;
+}
+.song-window {
+  background-color: color(background);
+  padding: 0.5rem;
+  margin: 0;
+  width: 75vh;
+  height: auto;
+  border: 0.3rem ridge rgba(48, 44, 44, 0.6);
+}
+
+.song-header {
+  background: linear-gradient(90deg, navy, #1084d0);
+  color: white;
+  font-size: 0.8rem;
+  padding: 0.1rem 0.5rem 0rem 0.5rem;
+}
