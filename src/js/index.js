@@ -4,7 +4,7 @@
 const query = async function () {
   try {
     const response = await fetch(
-      `https://api.lyrics.ovh/v1/Coldplay/Adventure of a Lifetime`
+      `https://api.lyrics.ovh/v1/Coldplay/Viva La Vida`
     );
     const data = await response.json();
     console.log(data);
@@ -17,5 +17,3 @@ const query = async function () {
 query();
 
 const lyrics = document.getElementById("lyrics");
-
-
